@@ -1,0 +1,14 @@
+
+.mainContainer{
+    display: grid;
+    background-color: slategray;
+    height: 100vh;
+}
+
+.clickMeBtn{
+    border: solid 1px red;
+}
+
+.viewContainer{
+    background-color: aquamarine;
+}

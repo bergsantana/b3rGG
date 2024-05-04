@@ -1,0 +1,58 @@
+#menuItems{
+    display: grid;
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    row-gap: 0.25rem;
+}
+ 
+
+ 
+
+
+.menuItemContainer{
+    display: grid;
+    grid-template-areas: 
+    'img title btn'
+    'img description btn'
+    'img price btn'
+    ;
+    grid-template-columns: 35% 55% 10%;
+    grid-template-rows: 35% 30% 35%;
+    background: white;
+    max-height: 10rem;
+    
+}
+
+.title{
+    font-size: 1rem;
+    grid-area: title;
+    padding-right: 0.25rem;
+}
+.price{
+    color: green;
+    font-size: 2vh;
+    grid-area: price;
+    height: 100%;
+    text-align: center;
+}
+
+.photo{
+    width: 100%;
+    grid-area: img;
+    align-self: center;
+    justify-self: center;
+}
+
+.description{
+    font-size: 1vh;
+    grid-area: description;
+    padding-left: 0.5rem;
+    overflow: scroll;
+    height: 3rem;
+}
+
+.qtyBtn {
+    grid-area: btn;
+}
