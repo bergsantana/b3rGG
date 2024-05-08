@@ -1,36 +1,35 @@
-import { useState } from "react";
  
 import './Home.css'
 import { Outlet, useNavigate } from "react-router-dom";
-
+import Sidebar from "./Sidebar/Sidebar";
+import { useState } from 'react';
+import { SelectedRoute } from '../utils/SelectedRoute';
+import { classes } from '../utils/classes';
 
 
 export default function Home(){
-    const [ welcome, setWelcome ] = useState('Welcome USER')
+    
+    const [currentRoute, updatedCurrentRoute] = useState(SelectedRoute.HOME)
 
-    function handleClick() {
-        setWelcome(`${welcome}` + 'plus ')
-    }
+    const theme = classes
 
     const navigate = useNavigate()
+
+    const goToHome = () => navigate('/')
+
     const goToCreateMenu = () => navigate('/create-menu')
 
     return (
     <>
-        <div className={'mainContainer'}>
-            <p>
-                { welcome }
-            </p>
-            <button onClick={handleClick} className={'clickMeBtn'} >
-               ( click me )
-            </button>
-            <div className="createMenuContainer">
-                <button onClick={goToCreateMenu} >
-                   CREATE MENU
-                </button>
+        <div className={`mainContainer ${theme[currentRoute]}`}>
+            <div className="sidebarContainer">
+                 <Sidebar  routes={[goToHome , goToCreateMenu]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
             </div>
             <div className="viewContainer">
                 <Outlet />
+            </div>
+            <div className="footerContainer">
+                <button>footer btn</button>
             </div>
         </div>
         </>

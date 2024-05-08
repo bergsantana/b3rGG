@@ -79,7 +79,7 @@ export default function CreateMenu () {
         <DragDropContext onDragEnd={onDrop}  onDragStart={onGrab}>
                 <Droppable droppableId="menuItems">
                     {(provided) => (
-                        <ul id="menuItems" {...provided.droppableProps}  ref={provided.innerRef}> 
+                        <div id="menuItems" {...provided.droppableProps}  ref={provided.innerRef}> 
                             {menuForm.items.map(({id, title, description,price, photoUrl, quantity}, index)=>{
                                 return (
                                     <Draggable key={id} draggableId={id} index={index}>
@@ -97,20 +97,24 @@ export default function CreateMenu () {
                                                     <div className="description"><p>{description}</p></div>
                                                     <div className="price"><p>{'$ ' + price}</p></div>
                                                     <div className="qtyBtn">
-                                                        <ItemQuantityButton  num={quantity} id={id} updateNum={onQuantityUpdate} />
+                                                    <ItemQuantityButton  num={quantity} id={id} updateNum={onQuantityUpdate} />
                                                     </div>
-
+                                                      
                                                 </div>
+                                                
                                             </li>
+                                            
                                         )
                                             
                                         }
                                     </Draggable>
+                                    
                                 )
+                                
                             })}
+                            
                             {provided.placeholder}
-
-                        </ul>
+                        </div>
                     )}
                 </Droppable>
             </DragDropContext>

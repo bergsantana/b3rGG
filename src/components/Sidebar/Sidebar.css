@@ -1,0 +1,52 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5rem 0 0 0;
+}
+
+.btn {
+     
+    border-radius: 3%;
+    width: 15rem;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+    transition: linear 300ms;
+    border: solid 0.1rem transparent;
+     
+}
+
+.btn:hover {
+   border: solid 0.1rem rgb(201, 201, 201);
+   color: rgb(0, 0, 0);
+   transition: linear 200ms;
+     
+}
+
+.active {
+    border: solid 0.1rem slateblue
+}
+
+.home {
+    box-shadow: 3px 3px 2px 1px rgb(128, 128, 128);
+    color: white;
+}
+
+.createMenu{
+    color: rgb(53, 60, 66);
+    box-shadow: 3px 3px 2px 1px rgb(86, 156, 64);
+}
+
+.dashboard {
+    color: rgb(53, 60, 66);
+    box-shadow: 3px 3px 2px 1px rgb(44, 42, 160);
+}
+
+.contact{
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px 1px rgb(119, 119, 119);
+}
+.contact:hover{
+    color: rgb(196, 196, 196);
+}

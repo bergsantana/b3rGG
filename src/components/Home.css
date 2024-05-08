@@ -1,14 +1,59 @@
 
 .mainContainer{
     display: grid;
-    background-color: slategray;
+    grid-template-areas: 
+    'sidebararea content content' 
+    'footer footer footer';
+    grid-template-columns: 33% 1fr 1fr;
+    grid-template-rows: 1fr 5rem;
+    background: linear-gradient(rgb(253,224,225), rgb(164,223,204));
     height: 100vh;
+    transition: background 500ms;
+    -webkit-transition: background 500ms;
+    -o-transition: background 500ms;
+    -ms-transition: background 500ms;
 }
 
-.clickMeBtn{
-    border: solid 1px red;
+.mainContainer.home {
+    background: linear-gradient(purple, black);
+}
+.mainContainer.dashboard {
+    background: linear-gradient(#bdbbff, white);
+}
+.mainContainer.contact {
+    background: linear-gradient( 145deg,#000000, rgb(44, 44, 44));
+}
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    grid-area: sidebararea;
+     
+    justify-content: start;
+    
+    height: 100%;
+    width: 100%;
+
+
 }
 
 .viewContainer{
-    background-color: aquamarine;
+    grid-area: content;
+     
+    width: fit-content; 
+}
+
+.footerContainer{
+    grid-area: footer;
+}
+
+@media (max-width: 801px) {
+    .mainContainer{ 
+        grid-template-areas: 'content' 'footer';
+    }
+
+    .sidebarContainer{
+        display: none;
+    }
+    
 }
