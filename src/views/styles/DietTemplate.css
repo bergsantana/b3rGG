@@ -1,0 +1,17 @@
+.dietContainer{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 0.25rem
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border: solid 0.1rem gray
+}

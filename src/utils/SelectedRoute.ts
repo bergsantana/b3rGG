@@ -1,6 +1,6 @@
 export enum SelectedRoute {
     HOME,
     CREATE_MENU,
-    DASHBOARD,
+    DIET_CALCULATOR,
     CONTATO,
 }

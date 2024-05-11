@@ -19,11 +19,13 @@ export default function Home(){
 
     const goToCreateMenu = () => navigate('/create-menu')
 
+    const goToDietCreator = () => navigate('/diet')
+
     return (
     <>
         <div className={`mainContainer ${theme[currentRoute]}`}>
             <div className="sidebarContainer">
-                 <Sidebar  routes={[goToHome , goToCreateMenu]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
+                 <Sidebar  routes={[goToHome , goToCreateMenu, goToDietCreator]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
             </div>
             <div className="viewContainer">
                 <Outlet />

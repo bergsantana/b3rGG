@@ -1,1 +1,1 @@
-export const classes = [ 'home', 'createMenu', 'dashboard', 'contact' ]
+export const classes = [ 'home', 'createMenu', 'dietCalculator', 'contact' ]
