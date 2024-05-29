@@ -1,16 +1,63 @@
- 
 
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.mainContainer{
+  display: grid;
+  grid-template-areas: 
+  'sidebararea content content' 
+  'footer footer footer';
+  grid-template-columns: 33% 1fr 1fr;
+  grid-template-rows: 1fr 5rem;
+  background: linear-gradient(rgb(253,224,225), rgb(164,223,204));
+  height: 100vh;
+
+
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.mainContainer.dietCalculator {
+  background: linear-gradient(315deg, purple, black);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
+.mainContainer.home {
+  background: linear-gradient(#bdbbff, white);
+}
+.mainContainer.contact {
+  background: linear-gradient( 135deg,#000000, rgb(44, 44, 44));
+}
+
+.sidebarContainer{
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebararea;
+  justify-content: start;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 801px) {
+  .sidebarContainer{
+      display: none;
+      background: black;
+
+  }
+}
+
+
+.viewContainer{
+  grid-area: content;
+   
+  width: fit-content; 
+  margin: 8% 0;
+}
+
+.footerContainer{
+  grid-area: footer;
+}
+
+@media (max-width: 801px) {
+  .mainContainer{ 
+      grid-template-areas: 'content' 'footer';
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr 5rem;
+
+  }
 
  
+  
+}

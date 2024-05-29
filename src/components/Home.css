@@ -8,6 +8,7 @@
     grid-template-rows: 1fr 5rem;
     background: linear-gradient(rgb(253,224,225), rgb(164,223,204));
     height: 100vh;
+
  
 }
 
@@ -42,6 +43,7 @@
     grid-area: content;
      
     width: fit-content; 
+    margin: 8% 0;
 }
 
 .footerContainer{

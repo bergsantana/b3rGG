@@ -1,0 +1,58 @@
+.resumeContainer {
+    background: white ;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.about {
+    border-bottom: solid 1px #bdbbff;
+    padding: 32px;
+    font-family: arial;
+    font-size: 1.2rem;
+    margin: 5px;
+
+}
+
+.workXp{
+    padding: 32px;
+}
+.xpItem { 
+    border-bottom: solid 1px #bdbbff;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    
+
+}
+
+.role{
+    font-size:  0.85rem;
+    font-weight: bold;
+}
+
+.company {
+    font-size:  0.85rem;
+    font-weight: bold;
+}
+
+.period{
+    display: flex;
+    flex-direction: row;
+    font-size:  0.85rem;
+    gap: 0.5rem;
+}
+
+.roleDescription {
+    font-size:  0.85rem;
+}
+
+.social {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
