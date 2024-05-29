@@ -49,6 +49,7 @@
 
 .footerContainer{
     grid-area: footer;
+    display: none;
 }
 
 @media (max-width: 801px) {
