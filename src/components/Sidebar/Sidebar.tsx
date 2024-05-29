@@ -12,9 +12,9 @@ interface props {
 
 export default function Sidebar(props: props) {
     const [selectedRoute, updatedSelectedRoute] = useState([0, 0, 0, 0])
-    const btnsText = ['Home', 'Criação de Cardárpio', 'Dashboard', 'Contato']
+    const btnsText = ['Home', 'Criação de Cardárpio', 'Hypertrophy Diet', 'Contato']
    
-    const themes = [ 'home', 'createMenu', 'dashboard', 'contact' ]
+    const themes = [ 'home', 'createMenu', 'dietCalculator', 'contact' ]
 
 
     const onRouteClick = (num :  number ) : undefined => {
@@ -27,7 +27,7 @@ export default function Sidebar(props: props) {
     }
 
     return (
-        <div className={'sidebarContainer'}>
+        <div className={'sidebarCompentContainer'}>
              
             <button 
                 className={`btn ${selectedRoute[0] ? 'active' : ''}  ${themes[props.currentRoute]} `}
@@ -43,7 +43,7 @@ export default function Sidebar(props: props) {
             </button>
             <button                 
                 className={`btn ${selectedRoute[2] ? 'active' : ''}  ${themes[props.currentRoute]}`}
-                onClick={() => (updatedSelectedRoute([0, 0, 1, 0]), onRouteClick(0), props.updateRouteTheme(SelectedRoute.DASHBOARD)) }
+                onClick={() => (updatedSelectedRoute([0, 0, 1, 0]), onRouteClick(2), props.updateRouteTheme(SelectedRoute.DIET_CALCULATOR)) }
             >
                 {btnsText[2]}
             </button>
