@@ -12,7 +12,7 @@ interface props {
 
 export default function Sidebar(props: props) {
     const [selectedRoute, updatedSelectedRoute] = useState([0, 0, 0, 0])
-    const btnsText = ['Home', 'Criação de Cardárpio', 'Hypertrophy Diet', 'Contato']
+    const btnsText = ['Home', 'Criação de Cardárpio', 'Diet Calculator', 'Contato']
    
     const themes = [ 'home', 'createMenu', 'dietCalculator', 'contact' ]
 

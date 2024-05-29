@@ -6,7 +6,7 @@
     'footer footer footer';
     grid-template-columns: 33% 1fr 1fr;
     grid-template-rows: 1fr 5rem;
-    background: linear-gradient(rgb(253,224,225), rgb(164,223,204));
+    background: linear-gradient(rgb(127, 0, 225), rgb(0, 0, 0));
     min-height: 100vh;
 
  
@@ -16,7 +16,7 @@
     background: linear-gradient(315deg, purple, black);
 }
 .mainContainer.home {
-    background: linear-gradient(#bdbbff, white);
+    background: linear-gradient(#144552, #4D194D);
 }
 .mainContainer.contact {
     background: linear-gradient( 135deg,#000000, rgb(44, 44, 44));
