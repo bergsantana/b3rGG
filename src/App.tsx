@@ -14,11 +14,11 @@ function App() {
 
   const navigate = useNavigate()
 
-  const goToHome = () => navigate('/')
+  const goToHome = () => navigate('/b3rGG')
 
-  const goToCreateMenu = () => navigate('/create-menu')
+  const goToCreateMenu = () => navigate('/b3rGG/create-menu')
 
-  const goToDietCreator = () => navigate('/diet')
+  const goToDietCreator = () => navigate('/b3rGG/diet')
 
 
 
