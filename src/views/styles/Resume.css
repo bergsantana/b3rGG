@@ -56,3 +56,25 @@
     flex-direction: row;
     gap: 1rem;
 }
+
+.skills {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    font-size: 0.85rem;
+}
+
+.skillItem { 
+    display: flex;
+    border-bottom: solid 0.1rem #bdbbff;
+    width: fit-content;
+}
+
+div.skills  p:nth-child(1) {
+    font-weight: bold;    
+}
+
+h4 { 
+    font-size: 2rem;
+}

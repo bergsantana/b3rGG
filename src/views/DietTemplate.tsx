@@ -28,20 +28,21 @@ export default function DietTemplate(){
 
     return (
         <div className="dietContainer">
+             <h4>Calculadora de Calorias</h4>
              <form onSubmit={handleSubtmit}>
-                <label>
+                <label className="input">
                     <p>Height</p>
-                    <input name="heightInput" defaultValue={"in cm"}/>
+                    <input name="heightInput" placeholder={"in cm"}/>
                 </label>
                 <hr />
-                <label>
+                <label className="input">
                     <p>Weight</p>
-                    <input name="weightInput" defaultValue={"in kg"}/>
+                    <input name="weightInput" placeholder={"in kg"}/>
                 </label>
                 <hr />
-                <label>
+                <label className="input">
                     <p>Age</p>
-                    <input name="ageInput" defaultValue={"years"}/>
+                    <input name="ageInput" placeholder={"years"}/>
                 </label>
                 <hr />
                 <div className="buttonsContainer"> <p>  Activity Level: </p>
