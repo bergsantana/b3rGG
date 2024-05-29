@@ -7,18 +7,18 @@ import App from "./App";
 
  const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/b3rGG',
         element: <App />,
         children: [
             {
-                path:'/',
+                path:'/b3rGG',
                 element: <Resume />
             },
             {
-            path: '/create-menu',
+            path: 'create-menu',
             element:  <CreateMenu />
             },{
-            path: '/diet',
+            path: 'diet',
             element:  <DietTemplate />
             }
         ]
