@@ -4,8 +4,8 @@ import {LinkedIn, GitHub,Email } from '@mui/icons-material'
 export default function Resume () {
     const aboutMe = 'Me chamo Wanderberg, sou desenvolvedor Fullstack. Graduando de Sistemas de Informação na Universidade do Amazonas. Também contribuo em projetos voluntários desde 2021.'
     const workExp : {role: string, company: string, from: string, until: string, description : string}[]= [
-        {role: 'Desenvolvedor Fullstack', company: 'Cal-Comp/R&D',from: '04/2023', until: '04/2024', description : 'Implemento telas em Vue com Sass. Rotas da API em Node.js com Nest.js. Banco Oracle com TypeORM. Uso de Redis e RabbitMQ. Resposável por implementar um APM.'},
-        {role: 'Desenvolvedor Fullstack Voluntário', company: 'KeelWorks Foundation',from: '04/204', until: '', description : 'Estagiário voluntário, atuo codificando ferramentas de uso interno, entre elas está um editor online da newsletter mensal em React.'}
+        {role: 'Desenvolvedor Fullstack', company: 'Cal-Comp/ Femto R&D',from: '04/2023', until: '04/2024', description : 'Implemento telas em Vue com Sass. Rotas da API em Node.js com Nest.js. Banco Oracle com TypeORM e CI/CD com o GitLab, mensageria com Redis e RabbitMQ. Resposável por implementar um APM.'},
+        {role: 'Desenvolvedor Fullstack Voluntário', company: 'KeelWorks Foundation',from: '04/2024', until: '', description : 'Estagiário voluntário, atuo codificando ferramentas de uso interno, entre elas está um editor online da newsletter mensal em React.'}
     ]
 
     const linkedinURL = 'https://www.linkedin.com/in/wanderberg-santana-42084bb8/'
@@ -66,7 +66,7 @@ export default function Resume () {
                     </div>
                     <div className='skillItem'>
                         <p>Utilidades - </p>
-                        <p> Docker, Linunx, RabbitMQ, Redis, AWS </p>
+                        <p> Docker, Linux, RabbitMQ, Redis, AWS, GitHub CI/CD </p>
                     </div>
                 </div>
                 <div className='social'>

@@ -7,6 +7,12 @@
     color: #999898;
 }
 
+@media (max-width: 768px){
+    .resumeContainer{
+        width: 100% ;   
+     }
+    
+} 
 .about {
     border-bottom: solid 1px #bdbbff;
     padding: 32px;

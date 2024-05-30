@@ -30,7 +30,7 @@
 
 .btn.home {
     box-shadow: 3px 3px 2px 1px rgb(128, 128, 128);
-    color: rgb(5, 0, 0);
+    color: #999898;
 }
 
 .btn.createMenu{
@@ -50,6 +50,7 @@
 .btn.contact{
     color: rgb(255, 255, 255);
     box-shadow: 3px 3px 2px 1px rgb(119, 119, 119);
+    background-color: #200a20;
 }
 .btn.contact:hover{
     color: rgb(196, 196, 196);
