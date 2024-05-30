@@ -1,12 +1,23 @@
-import { ArrowLeft, BatteryCharging30, Bluetooth, CameraEnhance, ChromeReaderMode, Circle,   DoNotDisturbOnTotalSilence,   Email,   Google,   Grid3x3,   Grid3x3Outlined,   Mic,   NotificationsOff,   OpenInFull,   Phone,   SignalCellularAlt,   SquareRounded, Timer, ViewCompact, Wifi } from "@mui/icons-material";
+import { 
+    ArrowLeft, 
+    BatteryCharging30,
+    Bluetooth, 
+    CameraEnhance,  
+    Circle,       
+    Email,   
+    Google,   
+    Mic,   
+    NotificationsOff,   
+     
+    Phone,   
+    SignalCellularAlt,   SquareRounded, Timer, ViewCompact, Wifi } from "@mui/icons-material";
 import './styles/Android.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChrome } from "@fortawesome/free-brands-svg-icons";
-import { faCamera } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { faChrome } from "@fortawesome/free-brands-svg-icons"; 
+ 
 
 export default function Android() {
-    const [currTime, updateCurrTime ] = useState( new Date())
+    const  currTime  =  new Date() 
     const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     
     return (
