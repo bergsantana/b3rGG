@@ -34,12 +34,12 @@
 }
 
 .btn.createMenu{
-    color: rgb(53, 60, 66);
+    color: rgb(186, 213, 236);
     box-shadow: 3px 3px 2px 1px rgb(86, 156, 64);
 }
 
 .btn.dietCalculator {
-    color: rgb(214, 214, 214);
+    color: rgb(146, 146, 146);
     box-shadow: 3px 3px 2px 1px rgb(44, 42, 160);
 }
 .btn.dietCalculator:hover{

@@ -1,9 +1,10 @@
 .resumeContainer {
-    background: #9795ff ;
+    background: #200a20 ;
     width: 55%;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
+    color: #999898;
 }
 
 .about {
@@ -19,12 +20,12 @@
     padding: 32px;
 }
 .xpItem { 
-    border-bottom: solid 1px #bdbbff;
+    border-bottom: solid 0.1rem #bdbbff;
     display: flex;
     flex-direction: column;
     font-family: arial;
     font-size: 1.2rem;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 1.5rem 0;
     
 
 }
@@ -67,7 +68,7 @@
 
 .skillItem { 
     display: flex;
-    border-bottom: solid 0.1rem #bdbbff;
+ 
     width: fit-content;
 }
 

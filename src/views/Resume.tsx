@@ -2,7 +2,7 @@ import './styles/Resume.css'
 import {LinkedIn, GitHub,Email } from '@mui/icons-material'
 
 export default function Resume () {
-    const aboutMe = 'Me chamo Wanderberg, sou desenvolvedor Fullstack. Sou de Manaus, Amazonas e graduando de Sistemas de Informação na Universidade do Amazonas. Também contribuo em projetos voluntários desde 2021.'
+    const aboutMe = 'Me chamo Wanderberg, sou desenvolvedor Fullstack. Graduando de Sistemas de Informação na Universidade do Amazonas. Também contribuo em projetos voluntários desde 2021.'
     const workExp : {role: string, company: string, from: string, until: string, description : string}[]= [
         {role: 'Desenvolvedor Fullstack', company: 'Cal-Comp/R&D',from: '04/2023', until: '04/2024', description : 'Implemento telas em Vue com Sass. Rotas da API em Node.js com Nest.js. Banco Oracle com TypeORM. Uso de Redis e RabbitMQ. Resposável por implementar um APM.'},
         {role: 'Desenvolvedor Fullstack Voluntário', company: 'KeelWorks Foundation',from: '04/204', until: '', description : 'Estagiário voluntário, atuo codificando ferramentas de uso interno, entre elas está um editor online da newsletter mensal em React.'}

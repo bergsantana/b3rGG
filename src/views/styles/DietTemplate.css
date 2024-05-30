@@ -5,11 +5,13 @@
     padding: 1.25rem;
     border-radius: 10px;
     margin-left: 3rem;
+    
 }
 
 .buttonsContainer{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 button{
@@ -25,6 +27,12 @@ h4 {
 .input {
     display: flex;
     flex-direction: column; 
-    border-bottom: solid 2px black;
+    
+    margin-bottom: 1.5rem; 
 
 }
+.input input {
+    border-bottom: 0.1rem solid black;
+}
+
+hr{ display: none;}

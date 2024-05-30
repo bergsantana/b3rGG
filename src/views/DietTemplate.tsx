@@ -22,7 +22,7 @@ export default function DietTemplate(){
         const rightOp = 5.677 * form.ageInput.value
         updateCalories((leftOp - rightOp)* form.actInput.value)
         updateShowMaintenceCalories(1)
-        console.log(form)
+   
     }
 
 
