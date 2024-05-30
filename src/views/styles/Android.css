@@ -1,0 +1,60 @@
+.phoneCase {
+    display: flex;
+    flex-direction:  column;
+    border: solid 2px rgb(0, 0, 0);
+    height: 800px;
+    width: 400px;
+    background: url('../../assets/images//android/bg.png');
+    color: white;
+    border-radius: 2%;
+}
+
+.screen{
+    height: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1rem 1fr 1fr 1fr;
+}
+
+.footerBtns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 5%;
+ 
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+.headerIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBar{
+    background: white;
+    border-radius: 3%;
+    height: 15%;
+    color: lightskyblue;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    align-items: center;
+    margin: 2rem 2rem;
+}
+
+.timeDate{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+
+
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}

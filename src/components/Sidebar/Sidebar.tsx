@@ -1,7 +1,7 @@
 import { useState } from "react"
 import './Sidebar.css'
 import { SelectedRoute } from "../../utils/SelectedRoute"
-import { Home, MenuBookOutlined, FitnessCenter, Phone } from '@mui/icons-material'
+import { Home, MenuBookOutlined, FitnessCenter,   Android } from '@mui/icons-material'
 
 interface props {
     routes: Function[],
@@ -13,7 +13,7 @@ interface props {
 
 export default function Sidebar(props: props) {
     const [selectedRoute, updatedSelectedRoute] = useState([0, 0, 0, 0])
-    const btnsText = ['Home', 'Restaurant Menu', 'Diet Calculator', 'More']
+    const btnsText = ['Home', 'Restaurant Menu', 'Calories Calculator', 'Android Clone']
    
     const themes = [ 'home', 'createMenu', 'dietCalculator', 'contact' ]
 
@@ -52,9 +52,9 @@ export default function Sidebar(props: props) {
             </button>
             <button 
                 className={`btn ${selectedRoute[3] ? 'active' : ''}  ${themes[props.currentRoute]} `}
-                onClick={() => (updatedSelectedRoute([0, 0, 0, 1]), onRouteClick(0), props.updateRouteTheme(SelectedRoute.CONTATO)) }
+                onClick={() => (updatedSelectedRoute([0, 0, 0, 1]), onRouteClick(3), props.updateRouteTheme(SelectedRoute.CONTATO)) }
             >
-                {btnsText[3]} <Phone />
+                {btnsText[3]} <Android />
             </button>
         </div>
     )

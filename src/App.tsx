@@ -20,6 +20,8 @@ function App() {
 
   const goToDietCreator = () => navigate('/b3rGG/diet')
 
+  const goToAndroid = () => navigate('/b3rGG/android')
+
 
 
 
@@ -29,7 +31,7 @@ function App() {
   <>
       <div className={`mainContainer ${theme[currentRoute]}`}>
           <div className="sidebarContainer">
-               <Sidebar  routes={[goToHome , goToCreateMenu, goToDietCreator]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
+               <Sidebar  routes={[goToHome , goToCreateMenu, goToDietCreator, goToAndroid]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
           </div>
           <div className="viewContainer">
               <Outlet />
