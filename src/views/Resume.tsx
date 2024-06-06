@@ -1,5 +1,5 @@
 import './styles/Resume.css'
-import {LinkedIn, GitHub,Email } from '@mui/icons-material'
+import {LinkedIn, GitHub,Email, LabelImportantTwoTone, RadioButtonCheckedSharp, Link } from '@mui/icons-material'
 
 export default function Resume () {
     const aboutMe = 'Me chamo Wanderberg, sou desenvolvedor Fullstack. Graduando de Sistemas de Informação na Universidade do Amazonas. Também contribuo em projetos voluntários desde 2021.'
@@ -69,6 +69,31 @@ export default function Resume () {
                         <p> Docker, Linux, RabbitMQ, Redis, AWS, GitHub CI/CD </p>
                     </div>
                 </div>
+                <div className="flex flex-col gap-4">
+                    <h4 className="font-mono  text-2xl text-center"><LabelImportantTwoTone className='pt-1' /> Uma demo do meu trabalho</h4>
+                    <div className='pl-1 flex flex-col gap-4 text-lg lg:w-8/12 self-center'>
+                        <div className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
+                            <p className='text-3xl pl-5'><RadioButtonCheckedSharp className='p-1 mr-4' />Cat Facts - Nuxt/Vue, Tailwind</p>
+                            <img className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-mobile.gif" />
+                            <img  className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-desktop.gif" />
+                            
+                            <p className='pl-5'><Link /> Disponível em: <a className='text-blue-500' href='defsafe-developers-test-nine.vercel.app'>Cat Facts on Vercel</a></p>
+                        </div>
+                        <div  className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
+                            <p className='text-3xl pl-5' ><RadioButtonCheckedSharp className='p-1 mr-4' />Fake E-Commerce - React, Material UI, and Tailwind</p>
+                            <img   className='rounded-xl' src="https://github.com/bergsantana/desafio-front/raw/main/desafio-imagens/desafio-front-mobile.gif" />
+                            <img   className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/desafio-front/main/desafio-imagens/desafio-front-desktop.gif" />
+
+                            <p className='pl-5'><Link /> Available on: <a  className='text-blue-500' href='https://bergsantana.github.io/desafio-front'>Fake Online Store</a></p>
+                        </div>
+                        <div  className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
+                            <p className='text-3xl pl-5' ><RadioButtonCheckedSharp className='p-1 mr-4' />Login and Welcome page - React, Tailwind and Node.js</p>
+                            <img  className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/bondy-desafio-fullstack/main/packages/frontend/imgs/mobile.gif" />
+                             
+                        </div>
+                    </div>
+                </div>
+                    
                 <div className='social'>
                     <a href={linkedinURL} ><LinkedIn /></a>
                     <a href={gitURl} ><GitHub /></a>
