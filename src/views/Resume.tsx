@@ -12,7 +12,7 @@ export default function Resume () {
     const gitURl = 'https://github.com/bergsantana'
     return (
         <>
-            <div className="resumeContainer">
+            <div className="resumeContainer h-[700px] overflow-scroll ">
                 <div className='about'>
                      <h4>Olá,</h4>
                     <p>
@@ -94,7 +94,7 @@ export default function Resume () {
                     </div>
                 </div>
                     
-                <div className='social'>
+                <div className='social p-14 rounded-lg shadow-sm shadow-blue-600'>
                     <a href={linkedinURL} ><LinkedIn /></a>
                     <a href={gitURl} ><GitHub /></a>
                     <Email /> 
