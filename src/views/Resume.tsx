@@ -74,21 +74,21 @@ export default function Resume () {
                     <div className='pl-1 flex flex-col gap-4 text-lg lg:w-8/12 self-center'>
                         <div className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
                             <p className='text-3xl pl-5'><RadioButtonCheckedSharp className='p-1 mr-4' />Cat Facts - Nuxt/Vue, Tailwind</p>
-                            <img className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-mobile.gif" />
-                            <img  className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-desktop.gif" />
+                            <img className='imgs rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-mobile.gif" />
+                            <img  className='imgs rounded-xl' src="https://raw.githubusercontent.com/bergsantana/defsafe-developers-test/master/public/images/def-safe-desktop.gif" />
                             
                             <p className='pl-5'><Link /> Disponível em: <a className='text-blue-500' href='defsafe-developers-test-nine.vercel.app'>Cat Facts on Vercel</a></p>
                         </div>
                         <div  className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
                             <p className='text-3xl pl-5' ><RadioButtonCheckedSharp className='p-1 mr-4' />Fake E-Commerce - React, Material UI, and Tailwind</p>
-                            <img   className='rounded-xl' src="https://github.com/bergsantana/desafio-front/raw/main/desafio-imagens/desafio-front-mobile.gif" />
-                            <img   className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/desafio-front/main/desafio-imagens/desafio-front-desktop.gif" />
+                            <img   className='imgs rounded-xl' src="https://github.com/bergsantana/desafio-front/raw/main/desafio-imagens/desafio-front-mobile.gif" />
+                            <img   className='imgs rounded-xl' src="https://raw.githubusercontent.com/bergsantana/desafio-front/main/desafio-imagens/desafio-front-desktop.gif" />
 
                             <p className='pl-5'><Link /> Available on: <a  className='text-blue-500' href='https://bergsantana.github.io/desafio-front'>Fake Online Store</a></p>
                         </div>
-                        <div  className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl'>
+                        <div  className='flex flex-col gap-2 px-5 shadow-md  shadow-indigo-600  rounded-xl '>
                             <p className='text-3xl pl-5' ><RadioButtonCheckedSharp className='p-1 mr-4' />Login and Welcome page - React, Tailwind and Node.js</p>
-                            <img  className='rounded-xl' src="https://raw.githubusercontent.com/bergsantana/bondy-desafio-fullstack/main/packages/frontend/imgs/mobile.gif" />
+                            <img  className='imgs rounded-xl' src="https://raw.githubusercontent.com/bergsantana/bondy-desafio-fullstack/main/packages/frontend/imgs/mobile.gif" />
                              
                         </div>
                     </div>

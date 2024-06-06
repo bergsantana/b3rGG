@@ -89,3 +89,7 @@ div.skills  p:nth-child(1) {
 h4 { 
     font-size: 2rem;
 }
+
+.imgs {
+    margin: 2rem 0;
+}
