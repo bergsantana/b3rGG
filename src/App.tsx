@@ -33,7 +33,7 @@ function App() {
           <div className="sidebarContainer">
                <Sidebar  routes={[goToHome , goToCreateMenu, goToDietCreator, goToAndroid]} currentRoute={currentRoute} updateRouteTheme={updatedCurrentRoute} />
           </div>
-          <div className="viewContainer">
+          <div className="viewContainer h-[95vh] overflow-y-scroll">
               <Outlet />
           </div>
           <div className="footerContainer">
