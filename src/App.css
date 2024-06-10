@@ -44,7 +44,16 @@
    
   width: fit-content; 
   margin: 8% 0;
+
+  overflow-y: scroll;
+  scrollbar-width: thin;
+
+  background: #888;
+  border-radius: 5px;
 }
+
+ 
+ 
 
 .footerContainer{
   grid-area: footer;
