@@ -5,7 +5,7 @@ export default function Resume () {
     const aboutMe = 'Me chamo Wanderberg, sou desenvolvedor Fullstack. Graduando de Sistemas de Informação na Universidade do Amazonas. Também contribuo em projetos voluntários desde 2021.'
     const workExp : {role: string, company: string, from: string, until: string, description : string}[]= [
         {role: 'Devesenvolvedor Fullstack', company: 'Bondy', from: '06/2024', until: '', description: 'Integrando API GraphQL+MongoDB com front em Next.js/React hospedados em AWS.'},
-        {role: 'Desenvolvedor Fullstack', company: 'Cal-Comp/ Femto R&D',from: '04/2023', until: '04/2024', description : 'Implemento telas em Vue com Sass. Rotas da API em Node.js com Nest.js. Banco Oracle com TypeORM e CI/CD com o GitLab, mensageria com Redis e RabbitMQ. Resposável por implementar um APM.'},
+        {role: 'Desenvolvedor Fullstack', company: 'Cal-Comp/ Femto R&D',from: '04/2022', until: '04/2024', description : 'Implemento telas em Vue com Sass. Rotas da API em Node.js com Nest.js. Banco Oracle com TypeORM e CI/CD com o GitLab, mensageria com Redis e RabbitMQ. Resposável por implementar um APM.'},
         {role: 'Desenvolvedor Fullstack Voluntário', company: 'KeelWorks Foundation',from: '04/2024', until: '', description : 'Estagiário voluntário, atuo codificando ferramentas de uso interno, entre elas está um editor online da newsletter mensal em React.'}
     ]
 
