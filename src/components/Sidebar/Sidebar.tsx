@@ -13,7 +13,7 @@ interface props {
 
 export default function Sidebar(props: props) {
     const [selectedRoute, updatedSelectedRoute] = useState([0, 0, 0, 0])
-    const btnsText = ['Home', 'Restaurant Menu', 'Calories Calculator', 'Android Clone']
+    const btnsText = ['Currículo', 'Restaurant Menu', 'Calories Calculator', 'Android Clone']
    
     const themes = [ 'home', 'createMenu', 'dietCalculator', 'contact' ]
 
